@@ -11,9 +11,9 @@ import reactor.core.publisher.Flux;
 @Configuration
 public class LoadDatabase {
 
-    @Bean
+    /*@Bean
     CommandLineRunner init(ChapterRepository repository) {
         return args -> Flux.just(new Chapter("Test1"), new Chapter("Learning reactive with Boot"), new Chapter("Hoho, haha!"))
                            .flatMap(repository::save).subscribe(System.out::println);
-    }
+    }*/
 }

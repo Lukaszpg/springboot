@@ -10,8 +10,8 @@ public class Chapter {
     private String id;
     private String name;
 
-    public Chapter(String id) {
-        this.id = id;
+    public Chapter(String name) {
+        this.name = name;
     }
 
     public String getId() {

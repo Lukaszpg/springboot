@@ -14,6 +14,9 @@ public class Chapter {
         this.name = name;
     }
 
+    public Chapter() {
+    }
+
     public String getId() {
         return id;
     }

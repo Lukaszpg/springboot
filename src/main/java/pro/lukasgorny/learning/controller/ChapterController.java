@@ -4,7 +4,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import pro.lukasgorny.learning.domain.Chapter;
-import pro.lukasgorny.learning.service.abstraction.ChapterService;
+import pro.lukasgorny.learning.service.ChapterService;
 import reactor.core.publisher.Flux;
 
 @RestController
